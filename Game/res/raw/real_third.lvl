@@ -1,0 +1,28 @@
+# Third Level of Realfagbygget building
+
+# Main character
+MainCharacter(x=25,y=240,weapon=machinegun)
+
+# Walls
+Wall(x=0,y=235,width=50)
+Wall(x=80,y=200,width=30)
+Wall(x=0,y=165,width=50)
+Wall(x=80,y=130,width=85)
+Wall(x=210,y=165,width=130)
+Wall(x=110,y=235,width=220)
+Wall(x=110,y=135,height=210)
+
+# Enemies
+GunEnemy(x=50,y=425,move=80)
+GunEnemy(x=130,y=425,move=-80)
+GunEnemy(x=20,y=165,move=30)
+ShotgunEnemy(x=280,y=165,move=-65)
+
+# Objects
+AmmoPack(x=290,y=165,amount=6)
+HealthPack(x=110,y=130,amount=2)
+DynamitePack(x=130,y=235,amount=1)
+
+# Doors
+Door(x=280,y=425)
+Door(x=280,y=235)

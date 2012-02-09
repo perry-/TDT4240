@@ -1,0 +1,36 @@
+# Third Level of It building
+
+# Main character
+MainCharacter(x=10,y=420,weapon=shotgun)
+
+# Walls
+Wall(x=270,y=405,width=45)
+Wall(x=0,y=370,width=280)
+Wall(x=20,y=335,width=20)
+Wall(x=0,y=300,width=20)
+Wall(x=20,y=265,width=20)
+Wall(x=0,y=230,width=20)
+Wall(x=20,y=195,width=20)
+Wall(x=0,y=160,width=20)
+Wall(x=20,y=135,width=20)
+Wall(x=40,y=100,width=110)
+
+Wall(x=230,y=155,width=90)
+Wall(x=235,y=20,height=105)
+Wall(x=285,y=300,width=30)
+Wall(x=280,y=195,width=35)
+
+# Enemies
+GunEnemy(x=245,y=155,move=30)
+SpearEnemy(x=50,y=100,move=90)
+ShotgunEnemy(x=290,y=300,move=5)
+ShotgunEnemy(x=290,y=195,move=5)
+GunEnemy(x=50,y=370,move=200)
+
+# Objects
+AmmoPack(x=20,y=370,amount=9)
+AmmoPack(x=20,y=70,amount=9)
+HealthPack(x=60,y=70,amount=2)
+
+# Doors
+Door(x=300,y=155)

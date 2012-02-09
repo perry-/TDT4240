@@ -1,0 +1,19 @@
+# First Level of Main building
+
+# Main character
+MainCharacter(x=50,y=80)
+
+# Walls
+Wall(x=0,y=100,width=200)
+Wall(x=100,y=150,width=220)
+Wall(x=0,y=220,width=200)
+Wall(x=100,y=330,width=220)
+
+# Enemies
+SpearEnemy(x=100,y=150,move=180)
+
+# Objects
+HealthPack(x=100,y=330,amount=1)
+
+# Door
+Door(x=280,y=425)

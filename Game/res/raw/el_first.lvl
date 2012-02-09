@@ -1,0 +1,22 @@
+# First Level of Electro building
+
+# Main character
+MainCharacter(x=280,y=410)
+
+# Walls
+Wall(x=250,y=395,width=30)
+Wall(x=100,y=395,width=30)
+Wall(x=250,y=400,height=35)
+Wall(x=100,y=400,height=35)
+
+Wall(x=0,y=305,width=320)
+
+
+# Enemies
+SpearEnemy(x=150,y=425,move=80)
+
+# Objects
+HealthPack(x=80,y=370,amount=1)
+
+# Door
+Door(x=10,y=425)

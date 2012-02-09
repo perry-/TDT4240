@@ -1,0 +1,36 @@
+# Second Level of Electro building
+
+# Main character
+MainCharacter(x=280,y=410)
+
+# Walls
+Wall(x=170,y=60,height=305)
+
+Wall(x=0,y=395,width=270)
+Wall(x=265,y=400,height=35)
+
+Wall(x=170,y=360,width=80)
+Wall(x=170,y=325,width=55)
+Wall(x=170,y=290,width=20)
+
+Wall(x=200,y=255,width=120)
+Wall(x=170,y=220,width=100)
+
+Wall(x=170,y=185,width=75)
+Wall(x=170,y=150,width=50)
+Wall(x=170,y=115,width=25)
+
+Wall(x=200,y=80,width=120)
+
+Wall(x=290,y=150,width=30)
+
+# Enemies
+GunEnemy(x=20,y=395,move=240)
+GunEnemy(x=200,y=255,move=90)
+ShotgunEnemy(x=290,y=150,move=5)
+SpearEnemy(x=200,y=80,move=80)
+
+# Objects
+
+# Door
+Door(x=295,y=80)

@@ -1,0 +1,34 @@
+# Third Level of Electro building
+
+# Main character
+MainCharacter(x=30,y=45,weapon=shotgun)
+
+# Walls
+
+Wall(x=0,y=305,width=320)
+Wall(x=0,y=75,width=100)
+Wall(x=140,y=75,width=30)
+Wall(x=100,y=76,height=140)
+Wall(x=170,y=25,height=180)
+
+Wall(x=290,y=235,width=30)
+Wall(x=230,y=270,width=90)
+Wall(x=65,y=235,width=30)
+
+
+Wall(x=175,y=200,width=110)
+Wall(x=175,y=165,width=55)
+Wall(x=175,y=130,width=30)
+Wall(x=230,y=95,width=85)
+
+# Enemies
+GunEnemy(x=230,y=270,move=30)
+ShotgunEnemy(x=65,y=235,move=5)
+SpearEnemy(x=100,y=305,move=80)
+SpearEnemy(x=180,y=305,move=-80)
+
+# Objects
+AmmoPack(x=280,y=305,amount=6)
+
+# Door
+Door(x=295,y=95)
