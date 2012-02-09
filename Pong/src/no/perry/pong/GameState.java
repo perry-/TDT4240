@@ -21,7 +21,7 @@ import android.view.MotionEvent;
 
 /**
  * @author Perry
- * A new version of the original Pong game
+ * 
  */
 public class GameState extends State implements TouchListener, CollisionListener {
 
