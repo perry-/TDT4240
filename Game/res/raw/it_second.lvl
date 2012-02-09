@@ -1,0 +1,30 @@
+# Second Level of It building
+
+# Main character
+MainCharacter(x=10,y=420)
+
+# Walls
+Wall(x=0,y=300,width=120)
+Wall(x=175,y=405,width=35)
+Wall(x=230,y=370,width=30)
+Wall(x=285,y=335,width=30)
+Wall(x=230,y=300,width=30)
+Wall(x=175,y=265,width=30)
+Wall(x=230,y=230,width=30)
+Wall(x=285,y=195,width=30)
+Wall(x=230,y=160,width=30)
+Wall(x=285,y=125,width=30)
+Wall(x=200,y=90,width=60)
+
+Wall(x=0,y=165,width=120)
+
+# Enemies
+GunEnemy(x=50,y=165,move=50)
+GunEnemy(x=50,y=300,move=50)
+
+# Objects
+AmmoPack(x=20,y=300,amount=3)
+HealthPack(x=150,y=80,amount=2)
+
+# Doors
+Door(x=20,y=165)

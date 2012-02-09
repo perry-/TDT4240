@@ -1,0 +1,43 @@
+# Final Level of Main building
+
+# Main character
+MainCharacter(x=150,y=75)
+
+AlfieBoss(x=10,y=400,move=300,final=true)
+
+# Left side walls
+Wall(x=0,y=150,width=40)
+Wall(x=0,y=200,width=40)
+Wall(x=0,y=250,width=40)
+Wall(x=0,y=300,width=40)
+Wall(x=0,y=350,width=40)
+
+# Left center
+Wall(x=80,y=167,width=20)
+Wall(x=80,y=212,width=20)
+Wall(x=80,y=267,width=20)
+Wall(x=80,y=312,width=20)
+Wall(x=80,y=367,width=20)
+
+# Middle walls
+Wall(x=150,y=90,width=20)
+Wall(x=140,y=175,width=40)
+Wall(x=140,y=225,width=40)
+Wall(x=140,y=275,width=40)
+Wall(x=140,y=325,width=40)
+Wall(x=140,y=375,width=40)
+
+
+# Right center
+Wall(x=220,y=167,width=20)
+Wall(x=220,y=212,width=20)
+Wall(x=220,y=267,width=20)
+Wall(x=220,y=312,width=20)
+Wall(x=220,y=367,width=20)
+
+# Right side walls
+Wall(x=280,y=150,width=40)
+Wall(x=280,y=200,width=40)
+Wall(x=280,y=250,width=40)
+Wall(x=280,y=300,width=40)
+Wall(x=280,y=350,width=40)

@@ -1,0 +1,19 @@
+# First Level of Realfagbygget building
+
+# Main character
+MainCharacter(x=10,y=420)
+
+# Walls
+Wall(x=65,y=405,width=70)
+Wall(x=90,y=390,height=20)
+Wall(x=65,y=410,height=20)
+Wall(x=130,y=410,height=20)
+
+# Enemies
+SpearEnemy(x=150,y=425,move=110)
+
+# Objects
+HealthPack(x=90,y=380,amount=1)
+
+# Door
+Door(x=280,y=425)

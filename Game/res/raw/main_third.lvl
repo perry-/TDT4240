@@ -1,0 +1,26 @@
+# Third Level of Main building
+
+# Main character
+MainCharacter(x=50,y=80)
+
+# Walls
+Wall(x=0,y=100,width=120)
+Wall(x=120,y=101,height=199)
+Wall(x=180,y=20,height=220)
+Wall(x=120,y=300,width=200)
+Wall(x=180,y=240,width=140)
+
+# Enemies
+
+# Objects
+AmmoPack(x=140,y=120,amount=9)
+HealthPack(x=140,y=150,amount=2)
+AmmoPack(x=140,y=180,amount=9)
+HealthPack(x=140,y=210,amount=2)
+DynamitePack(x=140,y=270,amount=4)
+AmmoPack(x=170,y=270,amount=9)
+HealthPack(x=210,y=270,amount=4)
+AmmoPack(x=240,y=270,amount=9)
+
+# Doors
+Door(x=285,y=300)

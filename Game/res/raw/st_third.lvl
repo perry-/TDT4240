@@ -1,0 +1,29 @@
+# Third Level of Stripa building
+
+# Main character
+MainCharacter(x=30,y=80,weapon=shotgun)
+
+# Walls
+Wall(x=0,y=95,width=90)
+Wall(x=30,y=125,width=310)
+Wall(x=0,y=235,width=90)
+Wall(x=30,y=305,width=90)
+Wall(x=0,y=340,width=90)
+Wall(x=120,y=235,width=220)
+Wall(x=120,y=340,width=220)
+Wall(x=120,y=130,height=80)
+Wall(x=120,y=25,height=80)
+Wall(x=120,y=235,height=80)
+
+# Enemies
+GunEnemy(x=300,y=125,move=-160)
+GunEnemy(x=300,y=235,move=-160)
+GunEnemy(x=300,y=340,move=-160)
+SpearEnemy(x=20,y=425,move=200)
+
+# Objects
+AmmoPack(x=250,y=425,amount=3)
+HealthPack(x=90,y=305,amount=2)
+
+# Doors
+Door(x=280,y=425)

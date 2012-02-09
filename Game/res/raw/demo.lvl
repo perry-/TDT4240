@@ -1,0 +1,40 @@
+#
+# Demo level for the LevelParserRaw class
+#
+# Empty lines or lines starting with # are comments
+# Each line should be on the format:
+#
+#  ClassName(key=value,key=value,...,key=value)
+#
+# ClassName must correspond to a class name in TokenFactory.java
+# Key must be parsed by Token.setParam() or in a subclass.
+#
+# Some keys are common, like x and y, some are specific for each
+# token. Check the loadParam()-functions for information.
+#
+# Walls are specified by top left corner
+# All other tokens are specified by bottom left corner
+# Bottom of the screen is 425
+#
+
+MainCharacter(x=50,y=100,weapon=shotgun)
+
+# Walls
+Wall(x=100,y=90,height=10)
+Wall(x=0,y=100,width=200)
+Wall(x=100,y=150,width=220)
+Wall(x=0,y=220,width=200)
+Wall(x=280,y=290,width=40)
+Wall(x=100,y=330,width=220)
+
+# Enemies
+SpearEnemy(x=120,y=100,move=60)
+GunEnemy(x=20,y=220,move=160)
+ShotgunEnemy(x=100,y=330,move=180)
+
+# Crates
+AmmoPack(x=280,y=290,amount=5)
+HealthPack(x=100,y=150,amount=1)
+
+# Door
+Door(x=280,y=425)
