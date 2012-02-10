@@ -13,7 +13,7 @@ public class PongActivity extends Activity {
         Game game = new Game(this, null);
         Display display = getWindowManager().getDefaultDisplay(); 
         //Push the main state.
-        game.pushState(new GameState(display));
+        game.pushState(new GameState(display, getResources()));
         //View the game.
         setContentView(game);
     }

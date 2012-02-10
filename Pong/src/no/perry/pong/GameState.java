@@ -10,6 +10,7 @@ import sheep.graphics.Font;
 import sheep.graphics.Color;
 import sheep.graphics.Image;
 import sheep.input.TouchListener;
+import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
@@ -26,7 +27,8 @@ import android.view.MotionEvent;
 public class GameState extends State implements TouchListener, CollisionListener {
 
 	private int canvasHeight, canvasWidth, pl1Score, pl2Score;
-	private Sprite paddle1, paddle2, ball;
+	private Sprite paddle1, paddle2;
+	private Ball ball;
 	private Paint paint;
 	private Canvas can;
 	private CollisionLayer collisionLayer = new CollisionLayer();
@@ -42,12 +44,12 @@ public class GameState extends State implements TouchListener, CollisionListener
 	 * Constructor, add paddles and a ball to the canvas
 	 * @param display Display data, for better scaling
 	 */
-	public GameState(Display display) {
+	public GameState(Display display, Resources res) {
 		this.display = display;
 
 		paddle1 = new Sprite(paddle1Image);
 		paddle2 = new Sprite(paddle2Image);
-		ball = new Sprite(ballImage);
+		ball = Ball.instance(ballImage);
 
 		collisionLayer.addSprite(paddle1);
 		collisionLayer.addSprite(paddle2);
