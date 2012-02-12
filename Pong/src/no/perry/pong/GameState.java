@@ -55,8 +55,8 @@ public class GameState extends State implements TouchListener, CollisionListener
 		collisionLayer.addSprite(ball);
 
 		
-		pl1Score = 20;
-		pl2Score = 20;
+		pl1Score = 0;
+		pl2Score = 0;
 		paddle1.setPosition(display.getHeight()/2, display.getHeight()/4);
 		paddle2.setPosition(display.getHeight()/2, display.getHeight()-(display.getHeight()/4));
 
